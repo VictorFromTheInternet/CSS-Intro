@@ -1,9 +1,20 @@
+/*
+	font-family: 'Inter', sans-serif;
+	font-family: 'Lexend Deca', sans-serif;
+
+	paragraph -> 15 pt 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
 :root{
 	--very-dark-blue : hsl(233, 47%, 7%); /* (main background) */
 	--dark-desaturated-blue : hsl(244, 38%, 16%); /* (card background) */
 	--soft-violet : hsl(277, 64%, 61%); /* (accent) */
+	--white:  hsl(0, 0%, 100%);  /* (main heading, stats): */
+	--slightly-transparent-white : hsla(0, 0%, 100%, 0.75);  /* (main paragraph) */
+  --slightly-transparent-white-accent : hsla(0, 0%, 100%, 0.6);  /* (accent(stat headings) */
 }
-
 body{
 	max-width: 100vw;
 	min-height: 100vh;
@@ -20,13 +31,33 @@ body{
 
 	padding: 10%;
 }
-/* place this within the background */ 
-/* absolute positioning*/
-.attribution { font-size: 11px; text-align: center; }
+
+.attribution { 
+	margin-top: 20px;
+	font-size: 11px; 
+	text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-
+/* text styling */
+h1{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
 .heading-accent{
 	color: var(--soft-violet);
+}
+h2{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+}
+.transparent-white{
+	color: var(--slightly-transparent-white);
+}
+.transparent-white-accent{
+	color: var(--slightly-transparent-white-accent);
 }
