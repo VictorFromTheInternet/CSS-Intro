@@ -1,15 +1,21 @@
 .card{
 	display: grid;
-	padding: 1rem;
 	grid-template-rows: 25% 75%; /*repeat(auto-fit, minmax( 240px, 1fr)); */
-	gap: 1rem;
 }
 .card-text{
 	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+	background-color: var(--dark-desaturated-blue);
+	padding: 1rem;
+	border-radius: 0 0 5% 5%;
 }
 .card-image{
 	display: grid;
 	overflow: hidden;
+	border-radius: 5% 5% 0 0;
 }
 .card-image img{
 	background-size: cover;
