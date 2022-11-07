@@ -11,6 +11,7 @@
 	background-color: var(--dark-desaturated-blue);
 	padding: 1rem;
 	border-radius: 0 0 5% 5%;
+	
 }
 .card-image{
 	display: grid;
@@ -21,4 +22,38 @@
 	background-size: cover;
 	width: 100%;
 	overflow: hidden;
+}
+
+
+/* text styling */
+h1{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+.heading-accent{
+	color: var(--soft-violet);
+}
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+h2{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+.main-p{
+	margin-bottom: 1rem;
+}
+.subheading-p{
+	margin-top: -2rem;
+}
+
+.transparent-white{
+	color: var(--slightly-transparent-white);
+}
+.transparent-white-accent{
+	color: var(--slightly-transparent-white-accent);
 }

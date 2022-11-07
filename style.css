@@ -39,25 +39,3 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-/* text styling */
-h1{
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
-}
-.heading-accent{
-	color: var(--soft-violet);
-}
-h2{
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
-}
-p{
-	font-family: 'Lexend Deca', sans-serif;
-	font-weight: 400;
-}
-.transparent-white{
-	color: var(--slightly-transparent-white);
-}
-.transparent-white-accent{
-	color: var(--slightly-transparent-white-accent);
-}
