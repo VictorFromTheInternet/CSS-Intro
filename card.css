@@ -1,7 +1,8 @@
 .card{
 	display: grid;
 	padding: 2rem;
-	grid-template-rows: 1fr 2fr;
+	grid-template-rows: 1fr 1fr; /* percentages break based on whitespace/content amount */
+	gap: 1rem;
 }
 .card-text{
 	display: grid;
@@ -11,6 +12,5 @@
 	overflow: hidden;
 }
 .card-image img{
-	background-size: contain repeat;
-	height: 50%;
+	width: 100%;
 }
