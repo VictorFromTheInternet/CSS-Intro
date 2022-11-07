@@ -15,13 +15,19 @@
 }
 .card-image{
 	display: grid;
-	overflow: hidden;
 	border-radius: 5% 5% 0 0;
+
+	background-color: var(--soft-violet);
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+
+	
 }
 .card-image img{
+	filter: opacity(80%);
 	background-size: cover;
 	width: 100%;
 	overflow: hidden;
 }
-
 
