@@ -1,9 +1,16 @@
 .card{
 	display: grid;
+	padding: 2rem;
+	grid-template-rows: 1fr 2fr;
 }
 .card-text{
 	display: grid;
 }
 .card-image{
 	display: grid;
+	overflow: hidden;
+}
+.card-image img{
+	background-size: contain repeat;
+	height: 50%;
 }
